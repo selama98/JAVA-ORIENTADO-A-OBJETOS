@@ -31,6 +31,7 @@ public class Punto {
         return this.y;
     }
 
+
     // ** Funciones **
 
     public void mover(double dx, double dy) {
@@ -43,5 +44,9 @@ public class Punto {
         double dy = this.getY() - p.getY();
 
         return Math.sqrt(Math.pow(dx,2) + Math.pow(dy,2));
+    }
+
+    public String toString() {
+        return ("(" + this.getX() + "," + this.getY() + ")");
     }
 }
