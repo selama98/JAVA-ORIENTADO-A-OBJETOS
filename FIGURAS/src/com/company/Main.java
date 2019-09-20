@@ -54,7 +54,7 @@ public class Main {
                     double dy = myObj.nextDouble();
 
                     p1.mover(dx,dy);
-                    System.out.println("Ahora p1 está en:" + p1.toString());
+                    System.out.println("Ahora p1 está en: " + p1.toString());
                 }
             }
 
