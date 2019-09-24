@@ -6,6 +6,11 @@ public class Punto {
 
     // ** Constructor **
 
+    public void Punto() {
+        this.x = 0;
+        this.y = 0;
+    }
+
     public void Punto(double x, double y) {
         this.x = x;
         this.y = y;
