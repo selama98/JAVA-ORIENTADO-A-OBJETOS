@@ -1,7 +1,7 @@
 package com.company;
 
 public class Turno {
-    private int horainicio;
+    private int horainicio;  // Hola que hase
     private int horafinal;
 
     // ** Constructor **
